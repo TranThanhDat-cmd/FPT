@@ -8546,11 +8546,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Web\\Web.csproj",
+      "projectUniqueName": "C:\\.Net\\SEP\\src\\Web\\Web.csproj",
       "projectName": "Web",
-      "projectPath": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Web\\Web.csproj",
+      "projectPath": "C:\\.Net\\SEP\\src\\Web\\Web.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Web\\obj\\",
+      "outputPath": "C:\\.Net\\SEP\\src\\Web\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8567,8 +8567,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Infrastructure\\Infrastructure.csproj"
+            "C:\\.Net\\SEP\\src\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\.Net\\SEP\\src\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

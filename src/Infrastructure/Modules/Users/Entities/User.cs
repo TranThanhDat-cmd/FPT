@@ -12,8 +12,10 @@ public class User : BaseEntity
     [JsonIgnore]
     public string? PasswordHash { get; set; }
     public string? FullName { get; set; }
-    [JsonIgnore]
-    public string? Avatar { get; set; }
+    public string? PhoneNumber { get; set; }
+    public string? RoleId { get; set; }
+    public Role? Role { get; set; }
+    public bool IsActive { get; set; } = true;
     [JsonIgnore]
     public string? Code { get; set; }
     [JsonIgnore]
@@ -28,5 +30,6 @@ public class UserConfigurations : IEntityTypeConfiguration<User>
         builder.Property(x => x.EmailAddress).IsRequired();
         builder.Property(x => x.PasswordHash).IsRequired();
         builder.Property(x => x.FullName).IsRequired();
+        builder.HasOne(x => x.Role).WithMany(x => x.Users).HasForeignKey(x => x.RoleId);
     }
 }

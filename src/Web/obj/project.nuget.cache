@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tfeHA3CKaY+6uLOBm3XzuRfsvKpG153gXsxQ1YlhUxPI7Z1XjnMNVhoLwLts8vaAcRNT/hZgCCbS/h77rWuPVQ==",
+  "dgSpecHash": "Tt+9fQiZ2yX2an6T3/A5vEjWtzF+dBX/jNSNE95Qc4Ocz54PfrLjo+PX68h8+Q2u1LPo8tQYksR/+3ACB1qT0Q==",
   "success": true,
-  "projectFilePath": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Web\\Web.csproj",
+  "projectFilePath": "C:\\.Net\\SEP\\src\\Web\\Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\aspnetcore.healthchecks.mysql\\6.0.2\\aspnetcore.healthchecks.mysql.6.0.2.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\aspnetcore.healthchecks.ui\\6.0.4\\aspnetcore.healthchecks.ui.6.0.4.nupkg.sha512",

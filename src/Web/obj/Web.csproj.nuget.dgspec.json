@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Web\\Web.csproj": {}
+    "C:\\.Net\\SEP\\src\\Web\\Web.csproj": {}
   },
   "projects": {
-    "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Core\\Core.csproj": {
+    "C:\\.Net\\SEP\\src\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\.Net\\SEP\\src\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Core\\Core.csproj",
+        "projectPath": "C:\\.Net\\SEP\\src\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Core\\obj\\",
+        "outputPath": "C:\\.Net\\SEP\\src\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -58,14 +58,14 @@
         }
       }
     },
-    "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\.Net\\SEP\\src\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\.Net\\SEP\\src\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "C:\\.Net\\SEP\\src\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Infrastructure\\obj\\",
+        "outputPath": "C:\\.Net\\SEP\\src\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -82,8 +82,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Core\\Core.csproj": {
-                "projectPath": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Core\\Core.csproj"
+              "C:\\.Net\\SEP\\src\\Core\\Core.csproj": {
+                "projectPath": "C:\\.Net\\SEP\\src\\Core\\Core.csproj"
               }
             }
           }
@@ -208,14 +208,14 @@
         }
       }
     },
-    "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Web\\Web.csproj": {
+    "C:\\.Net\\SEP\\src\\Web\\Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Web\\Web.csproj",
+        "projectUniqueName": "C:\\.Net\\SEP\\src\\Web\\Web.csproj",
         "projectName": "Web",
-        "projectPath": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Web\\Web.csproj",
+        "projectPath": "C:\\.Net\\SEP\\src\\Web\\Web.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Web\\obj\\",
+        "outputPath": "C:\\.Net\\SEP\\src\\Web\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -232,8 +232,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\TranThanhDat\\Git\\fpt_dangcapthuckhach_backend_source\\src\\Infrastructure\\Infrastructure.csproj"
+              "C:\\.Net\\SEP\\src\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\.Net\\SEP\\src\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }

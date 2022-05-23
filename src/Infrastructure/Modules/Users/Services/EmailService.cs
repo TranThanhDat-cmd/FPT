@@ -9,7 +9,7 @@ namespace Infrastructure.Modules.Users.Services;
 
 public interface IEmailService : IScopedService
 {
-    void Send(string to, string subject, string html, string from = null);
+    void Send(string to, string subject, string html, string? from = null);
 }
 
 public class EmailService : IEmailService
@@ -20,14 +20,14 @@ public class EmailService : IEmailService
     {
         _configuration = configuration;
     }
- public void Send(string to, string subject, string html, string from = null)
+    public void Send(string to, string subject, string html, string? from = null)
     {
         var email = new MimeMessage();
         email.From.Add(MailboxAddress.Parse(from ?? _configuration["MailSettings:Mail"]));
         email.To.Add(MailboxAddress.Parse(to));
         email.Subject = subject;
         email.Body = new TextPart(TextFormat.Html) { Text = html };
-        
+
         using var smtp = new SmtpClient();
         smtp.Connect(_configuration["MailSettings:Host"], int.Parse(_configuration["MailSettings:Port"]), SecureSocketOptions.StartTls);
         smtp.Authenticate(_configuration["MailSettings:Mail"], _configuration["MailSettings:Password"]);
